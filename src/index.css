@@ -24,10 +24,10 @@ code {
 /* The animation code */
 @keyframes example {
   0% {
-    background-color: #FC7E2F;
+    background-color: #0C4271;
   }
   10% {
-    background-color: #F0134D;
+    background-color: #B91646;
   }
   30% {
     background-color: #a2416b;
@@ -52,7 +52,7 @@ code {
     background-color: #512D6D;
   }
   50% {
-    background-color: #F14668;
+    background-color: #B91646;
   }
   30% {
     background-color: #025955;
