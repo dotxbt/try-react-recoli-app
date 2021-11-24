@@ -1,13 +1,66 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.eColiContainer {
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+/* The animation code */
+@keyframes example {
+  0% {
+    background-color: #FC7E2F;
+  }
+  10% {
+    background-color: #F0134D;
+  }
+  30% {
+    background-color: #a2416b;
+  }
+  50% {
+    background-color: #172774;
+  }
+  70% {
+    background-color: #a2416b;
+  }
+  90% {
+    background-color: #a2416b;
+  }
+  100% {
+    background-color: #84142D;
+  }
+
+  90% {
+    background-color: #276678;
+  }
+  70% {
+    background-color: #512D6D;
+  }
+  50% {
+    background-color: #F14668;
+  }
+  30% {
+    background-color: #025955;
+  }
+  10% {
+    background-color: #350B40;
+  }
+  0% {
+    background-color: #5A3D55;
+  }
 }
