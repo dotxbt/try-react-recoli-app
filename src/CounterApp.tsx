@@ -66,7 +66,6 @@ const CounterApp = () => {
 
   return (
     <div className="container">
-      <p className="title">RECOLI STATE MANAGEMENT</p>
       <p className="title">COUNTER</p>
       <div className="rowCenter">
         <button className="mButton" onClick={async () => setCounterChange(-1)}>

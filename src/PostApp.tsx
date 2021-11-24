@@ -20,7 +20,7 @@ const PostApp = () => {
       <p className="contentText">
         from : https://jsonplaceholder.typicode.com/posts
       </p>
-      <button className="mButton" onClick={() => refresh()}>
+      <button className="mButton" onClick={async () => refresh()}>
         Refresh
       </button>
       <Suspense fallback={LoadingShimmer}>
@@ -46,7 +46,7 @@ const PostAppChild = () => {
   );
 };
 
-const data: number[] = [1, 2, 3, 4, 5];
+const data: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3];
 const LoadingShimmer = (
   <div
     style={{
@@ -72,7 +72,15 @@ const LoadingShimmer = (
           <div
             className="shimmer"
             style={{
-              width: 400,
+              width: "100%",
+              margin: "10px 0px",
+              height: 16,
+            }}
+          />
+          <div
+            className="shimmer"
+            style={{
+              width: "100%",
               margin: "10px 0px",
               height: 16,
             }}
